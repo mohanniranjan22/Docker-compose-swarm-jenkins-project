@@ -1,21 +1,21 @@
 
 services:
   aws:
-    image: mohanniranjan/aws
+    image: mohanniranjan22/aws
     ports:
       - "80:80"
     deploy:
       replicas: 3
 
   devops:
-    image: mohanniranjan/devops
+    image: mohanniranjan22/devops
     ports:
       - "81:80"
     deploy:
       replicas: 3
 
   linux:
-    image: mohanniranjan/linux
+    image: mohanniranjan22/linux
     ports:
       - "82:80"
     deploy:
